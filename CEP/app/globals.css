@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-cloud text-charcoal;
+    font-family: 'Inter', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Nature-inspired gradients */
+  .gradient-hero {
+    background: linear-gradient(135deg, #87CEEB 0%, #A8E6CF 100%);
+  }
+
+  .gradient-forest {
+    background: linear-gradient(135deg, #1A5D4A 0%, #134038 100%);
+  }
+  
+  .gradient-sunset {
+    background: linear-gradient(135deg, #FFB84D 0%, #ff9d1a 100%);
+  }
+  
+  /* Old gradients for backward compatibility */
+  .gradient-primary {
+    background: linear-gradient(135deg, #1A5D4A 0%, #134038 100%);
+  }
+
+  .gradient-sky {
+    background: linear-gradient(135deg, #87CEEB 0%, #A8E6CF 100%);
+  }
+
+  .gradient-mint {
+    background: linear-gradient(135deg, #A8E6CF 0%, #7dd4b1 100%);
+  }
+
+  .glass-effect {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+}
+
+
+
