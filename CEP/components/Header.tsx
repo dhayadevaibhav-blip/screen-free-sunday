@@ -49,9 +49,14 @@ export default function Header({ onContactClick }: HeaderProps) {
             <div className="w-10 h-10 bg-sunset rounded-full flex items-center justify-center shadow-lg">
               <span className="text-white font-bold text-xl">🌱</span>
             </div>
-            <span className="text-2xl font-bold font-heading text-forest">
-              Screen Free Sundays
-            </span>
+            <div className="flex flex-col">
+              <span className="text-2xl font-bold font-heading text-forest">
+                Screen Free Sundays
+              </span>
+              <span className="block text-base font-semibold text-sunset" style={{letterSpacing: '0.5px'}}>
+                sponsored by Antariksh
+              </span>
+            </div>
           </motion.div>
 
           {/* Desktop Navigation */}
