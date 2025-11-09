@@ -54,7 +54,7 @@ export default function Header({ onContactClick }: HeaderProps) {
                 Screen Free Sundays
               </span>
               <span className="block text-base font-semibold text-sunset" style={{letterSpacing: '0.5px'}}>
-                sponsored by Antariksh
+                sponsored by Antriksh
               </span>
             </div>
           </motion.div>
