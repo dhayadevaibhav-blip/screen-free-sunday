@@ -51,10 +51,10 @@ export default function Header({ onContactClick }: HeaderProps) {
             </div>
             <div className="flex flex-col">
               <span className="text-2xl font-bold font-heading text-forest">
-                Screen Free Sundays
+                Antriksh
               </span>
               <span className="block text-base font-semibold text-sunset" style={{letterSpacing: '0.5px'}}>
-                sponsored by Antriksh
+                Screen Free Sundays 
               </span>
             </div>
           </motion.div>
